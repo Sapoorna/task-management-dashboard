@@ -1,0 +1,5 @@
+com\example\task_backend\model\Task.class
+com\example\task_backend\model\TaskStatus.class
+com\example\task_backend\repository\TaskRepository.class
+com\example\task_backend\TaskBackendApplication.class
+com\example\task_backend\controller\TaskController.class
