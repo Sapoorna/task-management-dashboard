@@ -1,32 +1,38 @@
-# Frontend
-frontend/node_modules/
-frontend/.next/
-frontend/out/
-frontend/.vercel/
-frontend/package-lock.json
+# Frontend (task-dashboard)
+task-dashboard/node_modules/
+task-dashboard/.next/
+task-dashboard/out/
+task-dashboard/.vercel/
+task-dashboard/package-lock.json
+task-dashboard/.env
+task-dashboard/.env.local
 
-# Backend
-backend/target/
-backend/*.log
-backend/.idea/
-backend/*.iml
-backend/.classpath
-backend/.project
-backend/.settings/
-backend/.gradle/
-backend/build/
+# Backend (task-backend)
+task-backend/target/
+task-backend/*.log
+task-backend/*.pid
+task-backend/hs_err_pid*.log
+task-backend/replay_pid*.log
+task-backend/.idea/
+task-backend/*.iml
+task-backend/.classpath
+task-backend/.project
+task-backend/.settings/
+task-backend/.gradle/
+task-backend/build/
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Environment
-.env
-.env.local
-.env.production
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*.iml
+
+# Environment
+.env
+.env.local
+.env.production
