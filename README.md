@@ -30,16 +30,16 @@ Open: http://localhost:3000
 
 ## API Endpoints
 
-GET    /api/tasks          - Get all tasks
-POST   /api/tasks          - Create a task
-PUT    /api/tasks/{id}     - Update a task
-DELETE /api/tasks/{id}     - Delete a task
+- GET    /api/tasks          - Get all tasks
+- POST   /api/tasks          - Create a task
+- PUT    /api/tasks/{id}     - Update a task
+- DELETE /api/tasks/{id}     - Delete a task
 
 ## Project Structure
 
 task-management-dashboard/
-├── task-dashboard/     # Next.js frontend
-└── task-backend/       # Spring Boot backend
+- task-dashboard/     # Next.js frontend
+- task-backend/       # Spring Boot backend
 
 ## Author
 
