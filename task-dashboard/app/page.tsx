@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { Task } from "@/types/task";
 
-const API_URL = "http://localhost:8081/api/tasks";
+const API_URL = "http://localhost:8080/api/tasks";
 
 export default function Home() {
   const [tasks, setTasks] = useState<Task[]>([]);
